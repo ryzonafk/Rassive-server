@@ -1,0 +1,19 @@
+{
+  "name": "rassive-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Online rooms server for Rassive (room codes, server-decided hits, builds and wins).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-reporter=spec test/match.test.js",
+    "guns": "node tools/extract-guns.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}

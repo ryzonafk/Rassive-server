@@ -1,0 +1,463 @@
+{
+ "ak45": {
+  "name": "AK-45",
+  "dmg": 31,
+  "rate": 8,
+  "mag": 30,
+  "reload": 2.2,
+  "spread": 0.022,
+  "range": 160,
+  "res": 120
+ },
+ "pistol": {
+  "name": "Pistol",
+  "dmg": 23,
+  "rate": 5,
+  "mag": 16,
+  "reload": 1.3,
+  "spread": 0.03,
+  "range": 90,
+  "res": 64
+ },
+ "smg": {
+  "name": "Buzz SMG",
+  "dmg": 17,
+  "rate": 12,
+  "mag": 30,
+  "reload": 2,
+  "spread": 0.05,
+  "range": 70,
+  "res": 120
+ },
+ "pump": {
+  "name": "Pump Shotgun",
+  "dmg": 11,
+  "rate": 1,
+  "mag": 5,
+  "reload": 4,
+  "spread": 0.09,
+  "range": 35,
+  "pellets": 9,
+  "res": 20
+ },
+ "burst": {
+  "name": "Burst Rifle",
+  "dmg": 27,
+  "rate": 3.3,
+  "mag": 30,
+  "reload": 2.4,
+  "spread": 0.015,
+  "range": 150,
+  "burst": 3,
+  "res": 90
+ },
+ "sniper": {
+  "name": "Bolt Sniper",
+  "dmg": 110,
+  "rate": 0.7,
+  "mag": 1,
+  "reload": 2.3,
+  "spread": 0.001,
+  "range": 400,
+  "res": 16
+ },
+ "mini": {
+  "name": "Minigun",
+  "dmg": 13,
+  "rate": 16,
+  "mag": 150,
+  "reload": 4.5,
+  "spread": 0.06,
+  "range": 90,
+  "res": 300
+ },
+ "hand": {
+  "name": "Hand Cannon",
+  "dmg": 72,
+  "rate": 1.4,
+  "mag": 7,
+  "reload": 2,
+  "spread": 0.012,
+  "range": 120,
+  "res": 21
+ },
+ "tac": {
+  "name": "Tactical Shotgun",
+  "dmg": 8,
+  "rate": 1.5,
+  "mag": 8,
+  "reload": 4.5,
+  "spread": 0.1,
+  "range": 30,
+  "pellets": 10,
+  "res": 24
+ },
+ "scar": {
+  "name": "Gold Rifle",
+  "dmg": 36,
+  "rate": 5.5,
+  "mag": 30,
+  "reload": 2,
+  "spread": 0.016,
+  "range": 170,
+  "res": 120
+ },
+ "ranger": {
+  "name": "Ranger AR",
+  "dmg": 28,
+  "rate": 6.5,
+  "mag": 30,
+  "reload": 2.2,
+  "spread": 0.026,
+  "range": 150,
+  "res": 120
+ },
+ "thunder": {
+  "name": "Thunder AR",
+  "dmg": 30,
+  "rate": 7,
+  "mag": 30,
+  "reload": 2.1,
+  "spread": 0.022,
+  "range": 150,
+  "res": 120
+ },
+ "heavyar": {
+  "name": "Heavy AR",
+  "dmg": 40,
+  "rate": 4,
+  "mag": 25,
+  "reload": 2.6,
+  "spread": 0.02,
+  "range": 160,
+  "res": 100
+ },
+ "infantry": {
+  "name": "Infantry Rifle",
+  "dmg": 38,
+  "rate": 3,
+  "mag": 20,
+  "reload": 2.2,
+  "spread": 0.012,
+  "range": 170,
+  "res": 80
+ },
+ "scoped": {
+  "name": "Scoped AR",
+  "dmg": 33,
+  "rate": 4,
+  "mag": 20,
+  "reload": 2.3,
+  "spread": 0.008,
+  "range": 200,
+  "res": 100
+ },
+ "pulse": {
+  "name": "Pulse Rifle",
+  "dmg": 24,
+  "rate": 9,
+  "mag": 32,
+  "reload": 2,
+  "spread": 0.02,
+  "range": 140,
+  "res": 128
+ },
+ "striker": {
+  "name": "Striker AR",
+  "dmg": 29,
+  "rate": 7.5,
+  "mag": 30,
+  "reload": 2.2,
+  "spread": 0.024,
+  "range": 150,
+  "res": 120
+ },
+ "nova": {
+  "name": "Nova Blaster",
+  "dmg": 34,
+  "rate": 7,
+  "mag": 35,
+  "reload": 2,
+  "spread": 0.015,
+  "range": 170,
+  "res": 140
+ },
+ "micro": {
+  "name": "Micro SMG",
+  "dmg": 14,
+  "rate": 15,
+  "mag": 30,
+  "reload": 1.8,
+  "spread": 0.06,
+  "range": 60,
+  "res": 150
+ },
+ "drum": {
+  "name": "Drum SMG",
+  "dmg": 18,
+  "rate": 11,
+  "mag": 50,
+  "reload": 2.6,
+  "spread": 0.05,
+  "range": 70,
+  "res": 150
+ },
+ "stinger": {
+  "name": "Stinger SMG",
+  "dmg": 20,
+  "rate": 12,
+  "mag": 30,
+  "reload": 1.9,
+  "spread": 0.045,
+  "range": 75,
+  "res": 150
+ },
+ "compact": {
+  "name": "Compact SMG",
+  "dmg": 22,
+  "rate": 13,
+  "mag": 40,
+  "reload": 2,
+  "spread": 0.045,
+  "range": 75,
+  "res": 160
+ },
+ "viper": {
+  "name": "Viper SMG",
+  "dmg": 16,
+  "rate": 13,
+  "mag": 30,
+  "reload": 2,
+  "spread": 0.05,
+  "range": 70,
+  "res": 150
+ },
+ "heavysg": {
+  "name": "Heavy Shotgun",
+  "dmg": 12,
+  "rate": 1.1,
+  "mag": 7,
+  "reload": 4.2,
+  "spread": 0.075,
+  "range": 40,
+  "pellets": 9,
+  "res": 21
+ },
+ "double": {
+  "name": "Double Barrel",
+  "dmg": 14,
+  "rate": 3,
+  "mag": 2,
+  "reload": 2.6,
+  "spread": 0.1,
+  "range": 25,
+  "pellets": 8,
+  "res": 20
+ },
+ "drumsg": {
+  "name": "Drum Shotgun",
+  "dmg": 7,
+  "rate": 2.5,
+  "mag": 10,
+  "reload": 4,
+  "spread": 0.09,
+  "range": 28,
+  "pellets": 8,
+  "res": 30
+ },
+ "lever": {
+  "name": "Lever Shotgun",
+  "dmg": 10,
+  "rate": 1.3,
+  "mag": 6,
+  "reload": 4,
+  "spread": 0.09,
+  "range": 32,
+  "pellets": 9,
+  "res": 24
+ },
+ "charge": {
+  "name": "Charge Shotgun",
+  "dmg": 15,
+  "rate": 0.9,
+  "mag": 5,
+  "reload": 4,
+  "spread": 0.06,
+  "range": 40,
+  "pellets": 9,
+  "res": 20
+ },
+ "hunting": {
+  "name": "Hunting Rifle",
+  "dmg": 85,
+  "rate": 0.9,
+  "mag": 1,
+  "reload": 1.8,
+  "spread": 0.003,
+  "range": 300,
+  "res": 16
+ },
+ "semi": {
+  "name": "Semi Sniper",
+  "dmg": 70,
+  "rate": 1.5,
+  "mag": 10,
+  "reload": 2.6,
+  "spread": 0.004,
+  "range": 350,
+  "res": 30
+ },
+ "heavysn": {
+  "name": "Heavy Sniper",
+  "dmg": 150,
+  "rate": 0.4,
+  "mag": 1,
+  "reload": 3,
+  "spread": 0.001,
+  "range": 450,
+  "res": 12
+ },
+ "dmr": {
+  "name": "Marksman DMR",
+  "dmg": 55,
+  "rate": 2.5,
+  "mag": 10,
+  "reload": 2.4,
+  "spread": 0.006,
+  "range": 250,
+  "res": 40
+ },
+ "revolver": {
+  "name": "Revolver",
+  "dmg": 50,
+  "rate": 1.5,
+  "mag": 6,
+  "reload": 2.2,
+  "spread": 0.015,
+  "range": 100,
+  "res": 30
+ },
+ "dual": {
+  "name": "Dual Pistols",
+  "dmg": 26,
+  "rate": 7,
+  "mag": 24,
+  "reload": 2.2,
+  "spread": 0.03,
+  "range": 80,
+  "res": 96
+ },
+ "silent": {
+  "name": "Silent Pistol",
+  "dmg": 26,
+  "rate": 5,
+  "mag": 16,
+  "reload": 1.4,
+  "spread": 0.025,
+  "range": 90,
+  "res": 64
+ },
+ "flint": {
+  "name": "Flint Pistol",
+  "dmg": 60,
+  "rate": 0.8,
+  "mag": 1,
+  "reload": 1.2,
+  "spread": 0.04,
+  "range": 40,
+  "res": 20
+ },
+ "machinep": {
+  "name": "Machine Pistol",
+  "dmg": 15,
+  "rate": 14,
+  "mag": 20,
+  "reload": 1.6,
+  "spread": 0.055,
+  "range": 60,
+  "res": 120
+ },
+ "lmg": {
+  "name": "Light MG",
+  "dmg": 22,
+  "rate": 9,
+  "mag": 100,
+  "reload": 4,
+  "spread": 0.045,
+  "range": 120,
+  "res": 200
+ },
+ "heavylmg": {
+  "name": "Heavy MG",
+  "dmg": 26,
+  "rate": 10,
+  "mag": 80,
+  "reload": 4.2,
+  "spread": 0.04,
+  "range": 130,
+  "res": 200
+ },
+ "rocket": {
+  "name": "Rocket Launcher",
+  "dmg": 100,
+  "rate": 0.8,
+  "mag": 1,
+  "reload": 2.8,
+  "spread": 0.004,
+  "range": 200,
+  "splash": 4.5,
+  "res": 6
+ },
+ "grenadel": {
+  "name": "Grenade Launcher",
+  "dmg": 80,
+  "rate": 1.2,
+  "mag": 6,
+  "reload": 3.5,
+  "spread": 0.01,
+  "range": 120,
+  "splash": 3.5,
+  "res": 18
+ },
+ "crossbow": {
+  "name": "Crossbow",
+  "dmg": 75,
+  "rate": 1,
+  "mag": 1,
+  "reload": 1.2,
+  "spread": 0.004,
+  "range": 160,
+  "res": 20
+ },
+ "laser": {
+  "name": "Laser Blaster",
+  "dmg": 18,
+  "rate": 10,
+  "mag": 40,
+  "reload": 2.2,
+  "spread": 0.006,
+  "range": 150,
+  "res": 160
+ },
+ "bubble": {
+  "name": "Bubble Blaster",
+  "dmg": 10,
+  "rate": 8,
+  "mag": 40,
+  "reload": 2,
+  "spread": 0.04,
+  "range": 60,
+  "res": 160
+ },
+ "snowball": {
+  "name": "Snowball Launcher",
+  "dmg": 25,
+  "rate": 1.6,
+  "mag": 8,
+  "reload": 2.5,
+  "spread": 0.02,
+  "range": 80,
+  "splash": 2,
+  "res": 32
+ }
+}

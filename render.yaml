@@ -1,0 +1,15 @@
+# Render Blueprint (free test server). Put the server/ folder in its own GitHub repo, then in Render: New > Blueprint.
+# (If you push the whole rocket-game folder instead, move this file to the repo root and add  rootDir: server)
+services:
+  - type: web
+    name: rassive-server
+    runtime: node
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: TRUST_PROXY
+        value: "1"
+      - key: NODE_VERSION
+        value: "20"

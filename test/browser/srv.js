@@ -1,0 +1,3 @@
+const D = require('/workspace/rocket-game/server/gamedata');
+function findSpawns() { for (let z0 = -100; z0 < 100; z0 += 3) for (let x0 = -120; x0 < 100; x0 += 3) { const pts = [0, 1].map(k => [x0 + 12 * k + 1, z0 + 2]); const hs = pts.map(([x, z]) => D.H(x, z)); if (hs.some(h => h < 2) || Math.max(...hs) - Math.min(...hs) > 0.4) continue; let ok = true; for (let x = x0; x <= x0 + 14; x += .5) if (D.H(x, z0 + 2) > Math.min(...hs) + .5) ok = false; if (ok) return pts; } }
+require('/workspace/rocket-game/server/server').createServer({ testSpawns: findSpawns(), stormCenter: findSpawns()[0], countdownMs: 800, protMs: 0 }).listen(8099);
